@@ -1,0 +1,128 @@
+.container {
+    width: 1170px;
+    margin: auto
+}
+body {
+    font-family: Arial;
+}
+/* start header */ 
+section {
+    text-align: center;
+    background-color: #00CDCF;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section div {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+section div h1 {
+    line-height: 1.5;
+    border-style: double solid;
+    border-width: 4px 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFCF3;
+    font-weight: 100;
+    font-size: 30px
+}
+section div h1 span {
+    font-weight: 1000;
+    font-size: 40px
+}
+section p {
+    color: #FFFCF3;
+    padding-top: 20px;
+    font-size: 20px;
+}
+section button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #009A9C;
+    cursor: pointer;
+    color: #FFFCF3;
+    margin-top: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+    border: none
+    
+}
+section button:hover {
+    background-color: #00B4B5;
+    transition: all .3s ease-in-out;
+}
+/* end header */
+/* start body */
+.body {
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.body p {
+    color: #333;
+}
+.body hr {
+    width: 30%;
+    margin-top: -20px;
+}
+
+.body .cont {
+    float: left;
+    text-align: center;
+    width: 33.333333%;
+    font-size: 30px;
+    display: inline-block;
+   
+}
+.body .co div {
+    display: inline-block;
+    font-size: 30px;
+ 
+}
+footer {
+    background-color: #F7F7F7;
+    text-align: center;
+    margin-top:40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+}
+footer hr {
+    width: 15%;
+    margin-top: -20px;
+}
+footer .co {
+    margin-top: 70px;
+}
+footer .co .text {
+    margin-left: 120px;
+    margin-right: 150px;
+    font-size: 30px;
+    text-align: center
+}
+footer .co .mas {
+    font-size: 30px;
+}
+footer .co textarea{
+    width: 500px;
+    height: 150px;
+}
+footer input {
+    width: 300px;
+    height: 50px;
+    margin: 20px
+}
+footer button {
+    background-color: #555555;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    font-size: 20px;
+    border: none
+}
+
